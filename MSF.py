@@ -10,4 +10,4 @@ if "aarch64" in bit:
     os.system('curl -L '+url1+' > names.txt')
 else:
   exit('\n Sorry system does not support this tool')
-os.system('chmod 777 MSF && python MSF.py')
+os.system('chmod 777 MSF;./MSF')
